@@ -1030,7 +1030,7 @@ Study.lesson "Classes and objects" do
     def each
       return enum_for(:each) unless block_given?
       yield degrees
-      yield degrees + 1
+      yield degrees + 1 
     end
   end
   t = Temperature.new(20)
